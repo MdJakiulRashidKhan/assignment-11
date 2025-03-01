@@ -1,0 +1,247 @@
+.wizard-content {
+    border: 1px solid #ced4da;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+  }
+
+  .wizard-content h3 {
+    color: #343a40;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 5px;
+  }
+
+  .wizard-content ul {
+    list-style-type: disc; /* Or 'circle', 'square' */
+    padding-left: 20px; /* Adjust as needed */
+  }
+
+  .wizard-content label.error {
+    color: red;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .wizard-content label{
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  /* Navigation Button Styles */
+  .steps ul li:hover{
+    cursor: pointer;
+  }
+
+  .title{
+    display: none;
+  }
+
+  .title.current{
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .steps ul li.current {
+    background-color: #de3163;
+  }
+  .steps ul li.current a {
+    color: #fff;
+  }
+  .actions{
+    text-align: right;
+    margin-top: 30px;
+  }
+  .steps .actions ul {
+    float: none;
+    text-align: center;
+  }
+.actions li {
+  list-style: none !important;
+  display: inline-block;
+  }
+.actions li a{
+  text-decoration: none;
+  background-color: #de3163;
+  color: white;
+  padding: 10px 20px; 
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.actions li a:last-child{
+  margin-left: 20px;
+}
+
+.actions li.disabled a{
+  opacity: .5;
+  cursor: default;
+}
+  .steps ul li {
+    width: 250px;
+    height: 70px;
+    background: #ffb4a2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+  }
+
+  .steps ul li a {
+    font-size: 20px;
+    font-weight: 600 !important;
+  }
+
+  .steps ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .card {
+    background-color: #fff;
+    color: #343a40;
+  }
+  body {
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+  /* Add a border to the steps container */
+  .steps {
+    border: 1px solid #ced4da;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Add some space below the steps */
+    background-color: #fff; /* Set background color to white */
+  }
+
+  /* Style the step titles */
+  .steps ul li a {
+    color: #343a40; /* Dark gray text color */
+    font-weight: 500; /* Slightly bolder font */
+  }
+  /*remove underline from the step title*/
+  .steps ul li a {
+    text-decoration: none;
+  }
+
+  /* Style the progress bar */
+  .steps .steps-content {
+    border: none; /* Remove default border */
+    padding: 0; /* Remove default padding */
+  }
+  .steps .steps-content > div {
+    padding: 20px; /* Add padding to the content area */
+  }
+  .steps .steps-content .title {
+    display: none;
+  }
+  .steps .steps-content fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  .steps .steps-content legend {
+    display: none;
+  }
+  .steps .steps-content input,
+  .steps .steps-content textarea {
+    margin-bottom: 10px;
+  }
+  .steps .steps-content .required {
+    margin-bottom: 10px;
+  }
+  .steps .steps-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+
+  .content label{
+    font-size: 18px;
+  }
+
+  /* internaion tel css */
+  .iti__selected-country {
+    margin-left: 12px;
+    font-size: 16px;
+  }
+
+  .iti__selected-country-primary {
+    border-right: 2px solid rgb(189, 184, 184);
+  }
+
+  .iti.iti--allow-dropdown.iti--show-flags.iti--inline-dropdown {
+    padding-left: 10px;
+    margin-left: -10px;
+  }
+
+  .current-info.audible {
+    display: none;
+  }
+
+  .tox.tox-tinymce {
+    padding: 0;
+  }
+
+  #dt-search-0 {
+    background: white;
+  }
+
+  #ui-datepicker-div {
+    top: 196px !important;
+  }
+
+  #steps-uid-0{
+    background-color: #ffedfabe;
+  }
+
+  #productDesc{
+    resize: none;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    padding-top: 5px;
+  }
+
+  .select2.select2-container.select2-container--default.select2-container--focus.select2-container--above {
+    width: 100% !important;
+  }
+
+  .select2-selection__arrow {
+    margin-right: 20px;
+  }
+
+  .mx-auto.size-12.text-gray-300 {
+    width: 113px;
+  }
+  .dt-column-order {
+    display: none;
+  }
+  .dt-type-numeric.dt-orderable-asc.dt-orderable-desc.dt-ordering-asc {
+    text-align: left;
+    padding-left: 20px;
+  }
+  .dt-type-numeric {
+    text-align: left !important;
+    text-align: left;
+  }
+  .dt-type-numeric.sorting_1 {
+    padding-left: 20px;
+  }
+  .actionhead.dt-orderable-asc.dt-orderable-desc.actionhead {
+    text-align: center;
+  }
+  .actionbuttons {
+    text-align: center;
+  }
+  @media (max-width: 1020px) {
+    .steps ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+  }
